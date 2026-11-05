@@ -3,8 +3,6 @@
 -- Run this against the empty database named: skillgap_passport
 
 SET NAMES utf8mb4;
-USE skillgap_passport;
-
 -- 1. USER ACCOUNTS
 CREATE TABLE IF NOT EXISTS users (
     user_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
